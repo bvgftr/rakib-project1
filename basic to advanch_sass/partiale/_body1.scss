@@ -1,0 +1,24 @@
+.head{
+    width: 990px;
+    height: 150px;
+    background-color: #cd9371;
+    margin: 10px auto;
+    @include border(5px, dashed, rgb(0, 13, 255) , 20px);
+    .head1{
+        font-size: 30px;
+        margin:  0 20px;
+        color: #ff1234 ;
+    }
+    .head2{
+        font-size: 15px;
+        margin:  0 20px;
+    }
+    // button{
+    //     text-align: center;
+    //     // margin: 0 110px;
+    //     // padding: 10px;
+    //     width: 100px;
+    //     height: 30px;
+    //     margin:  10px 20px;
+    // }
+}

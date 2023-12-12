@@ -1,0 +1,69 @@
+.manu {
+    width: 990px;
+    margin: auto;
+  background-color: $btn_back;
+  ul {
+    display: flex;
+    
+    li {
+      padding: 20px 20px;
+      display: block;
+      a {
+        color: $btn_back3;
+        text-decoration: none;
+        &:hover {
+          color: $btn_back1;
+        }
+      }
+    }
+  }
+}
+// @mixin button{
+//   text-align: center;
+//   background-color: $btn_back2;
+//   margin: 0 110px;
+//   color: $btn_back4;
+//   width: 100px;
+//   height: 30px;
+// }
+@mixin title{
+  text-align: center;
+  color: $btn_back4;
+} 
+
+@mixin bg{
+  background-color: white;
+  width: 310px;
+  margin: 0 15px;
+
+}
+
+@mixin border($border_width,$border_style,$border_color, $boder_radius){
+  border-width: $border_width;
+  border-style: $border_style;
+  border-color: $border_color;
+  border-radius: $boder_radius;
+}
+
+.btn{
+  display: inline-block;
+  padding: 5px 40px;
+  text-transform: capitalize;
+  font-size: 20px;
+  text-decoration: none
+  
+}
+
+.btn-primary{
+  @extend.btn;
+  background-color: blue;
+  color: white;
+  margin: 0 100px;
+}
+
+.btn-primary1{
+  @extend.btn;
+  background-color: blue;
+  color: white;
+  // margin: 0 100px;
+}

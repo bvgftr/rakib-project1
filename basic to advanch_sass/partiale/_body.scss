@@ -1,0 +1,54 @@
+
+.main{
+    width: 990px;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    background-color: $btn_back3;
+   
+    .main1{
+        // @include bg;
+        background-color: white;
+        width: 310px;
+        @include border(5px,dotted, rgb(0, 13, 255) ,10px);
+        // margin: 0 10px;
+        h1{
+            @include title;
+        }
+        p{
+            text-align: center;
+        }
+        // button{
+        //     @include button;
+        // }
+    }
+    .main2{
+        @include bg;
+        @include border(5px,dotted, rgb(0, 13, 255) ,10px);
+          h1{
+            @include title;
+        }
+        p{
+            text-align: center;
+        }
+        // button{
+        //     @include button;
+        // }
+    }
+    .main3{
+        // @include bg;
+        background-color: white;
+        width: 310px;
+        @include border(5px,dotted, rgb(0, 13, 255) ,10px);
+        // margin: 0 10px;
+          h1{
+            @include title;
+        }
+        p{
+            text-align: center;
+        }
+        // button{
+        //     @include button;
+        // }
+    }
+}
